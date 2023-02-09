@@ -27,6 +27,7 @@ python3 -m pip install --upgrade pip
 pip install django
 pip install django-crispy-forms
 pip install django-environ
+pip install black
 
 pip freeze -l > requirements.txt 
 ```
@@ -51,3 +52,4 @@ Then in browser: http://0.0.0.0:8000/
 - Secret Key: https://djecrety.ir/
 - Django-environ: https://django-environ.readthedocs.io/en/latest/quickstart.html
 - bootstrap: https://getbootstrap.com/
+- black package for code formatting: $ black format_my_file.py 
