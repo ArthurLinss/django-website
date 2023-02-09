@@ -17,6 +17,15 @@ source venv/bin/activate
 Create own `.env`file to replace `.env_dummy` (see name_of_env_file variable in settings.py)
 
 ```
+python manage.py migrate (website)
+python manage.py makemigrations
+```
+
+```
+python manage.py createsuperuser
+```
+
+```
 python manage.py check
 python manage.py runserver --noreload 
 ```
@@ -58,3 +67,5 @@ Then in browser: http://0.0.0.0:8000/
 - black package for code formatting: $ black format_my_file.py 
 - organizations (groups): https://github.com/bennylope/django-organizations
 - rest api: https://www.django-rest-framework.org/tutorial/quickstart/
+- login/signup: https://ordinarycoders.com/blog/article/django-user-register-login-logout
+- passwort reset: https://ordinarycoders.com/blog/article/django-password-reset
