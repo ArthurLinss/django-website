@@ -135,3 +135,12 @@ GitHub.sublime-settings
 !.vscode/launch.json
 !.vscode/extensions.json
 .history
+
+# collectstatic output
+root/
+./root/
+root/*
+
+
+# mac
+.DS_Store

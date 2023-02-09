@@ -23,7 +23,9 @@ python manage.py makemigrations
 
 ```
 python manage.py createsuperuser
+python manage.py collectstatic
 ```
+The `collectstatic`-cmd creates a new directory called `root` with the static files collected.
 
 ```
 python manage.py check
