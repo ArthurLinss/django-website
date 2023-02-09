@@ -5,6 +5,7 @@ Own django template for a basic website. Prepared already:
 - templates and static files (html and css, including js, htmx and bootstrap)
 - .env support in settings 
 - docker and docker-compose support for local development 
+- rest api infrastructure
 
 # Instructions
 
@@ -28,6 +29,8 @@ pip install django
 pip install django-crispy-forms
 pip install django-environ
 pip install black
+pip install djangorestframework
+
 
 pip freeze -l > requirements.txt 
 ```
@@ -53,3 +56,5 @@ Then in browser: http://0.0.0.0:8000/
 - Django-environ: https://django-environ.readthedocs.io/en/latest/quickstart.html
 - bootstrap: https://getbootstrap.com/
 - black package for code formatting: $ black format_my_file.py 
+- organizations (groups): https://github.com/bennylope/django-organizations
+- rest api: https://www.django-rest-framework.org/tutorial/quickstart/

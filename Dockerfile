@@ -16,6 +16,7 @@ RUN pip install django-environ
 #RUN pip install psycopg2-binary
 RUN pip install django-crispy-forms 
 RUN pip install crispy-tailwind
+RUN pip install black
 
 # Copy project
 COPY . .
