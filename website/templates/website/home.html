@@ -3,6 +3,9 @@
 {% block title %} Home {% endblock title %} 
 
 {% block content %}
+
+      {% if user.is_authenticated %}
+
 <div class="container py-5">
 
     <div class="media-body">
@@ -10,4 +13,10 @@
     <h2> Stuff etc etc. </h2>
 </div>
 </div>
+
+    {% else %}
+
+
+    {% endif %}
+
 {% endblock content %}

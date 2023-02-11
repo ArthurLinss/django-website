@@ -18,6 +18,7 @@ def register_request(request):
             user = form.save()
             login(request, user)
             messages.success(request, "Registration successful." )
+            print("redirect")
             return redirect("login")
             #login(request, user)
             #return redirect("home")
